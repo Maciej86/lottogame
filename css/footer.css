@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.footer__name {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer__iconsSocial {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.footer__link {
+    margin-left: 5px;
+    text-decoration: none;
+    color: var(--section);
+    transition: color .4s;
+}
+
+.footer__link:hover {
+    color: var(--sectionHover);
+}

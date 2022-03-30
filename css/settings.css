@@ -1,0 +1,137 @@
+.settings {
+    position: absolute;
+    z-index: 10;
+    top: -168px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgb(69, 69, 69);
+    transition: top .4s;
+}
+
+@media (max-width: 730px) {
+    .settings {
+        top: -264px;
+    }
+}
+
+@media (max-width: 480px) {
+    .settings {
+        top: -366px;
+    }
+}
+
+@media (max-width: 422px) {
+    .settings {
+        top: -411px;
+    }
+}
+
+@media (max-width: 258px) {
+    .settings {
+        top: -556px;
+    }
+}
+
+.settings:hover {
+    top: 0;
+}
+
+.settings__center {
+    width: 900px;
+    max-width: 90%;
+}
+
+.settings__body {
+    display: flex;
+    padding: 20px;
+    padding-top: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 7px 7px 0 rgba(69, 69, 69, .5);
+}
+
+@media (max-width: 730px) {
+    .settings__body {
+        flex-direction: column;
+    }
+}
+
+.settings__body--theme {
+    width: 40%;
+    padding-right: 40px;
+}
+
+.settings__body--draw {
+    width: 60%;
+}
+
+@media (max-width: 730px) {
+    .settings__body--theme, .settings__body--draw {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+.setting__title {
+    font-weight: 600;
+}
+
+.chooseTheme {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px 10px 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: .5;
+    transition: opacity .4s;
+}
+
+.chooseTheme:hover {
+    opacity: 1;
+}
+
+.themeDefault {
+    background: linear-gradient(to bottom, rgb(20, 136, 204), rgb(43, 50, 178));
+}
+
+.themeDark {
+    background: linear-gradient(to bottom, rgb(65, 67, 69), rgb(35, 37, 38));
+}
+
+.themeShifter {
+    background: linear-gradient(to bottom, rgb(248, 7, 89), rgb(188, 78, 15));
+}
+
+.themeCitrus {
+    background: linear-gradient(to bottom, rgb(253, 200, 48), rgb(243, 115, 53));
+}
+
+.themePurpink {
+    background: linear-gradient(to bottom, rgb(127, 0, 255), rgb(225, 0, 255));
+}
+
+.themeRoyal {
+    background: linear-gradient(to bottom, rgb(36, 59, 85), rgb(20, 30, 48));
+}
+
+.themeNelson {
+    background: linear-gradient(to bottom, rgb(255, 148, 114), rgb(242, 112, 156));
+}
+
+.settings__head {
+    position: relative;
+    text-align: right;
+}
+
+.settings__show {
+    position: absolute;
+    z-index: -10;
+    right: 0;
+    padding: 15px 25px 10px 25px;
+    background: rgb(255,255,255);
+    border: none;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 7px 7px 0 rgba(69, 69, 69, .5);
+    cursor: pointer;
+}

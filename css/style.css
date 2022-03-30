@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.pageTemplate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--gradientOne), var(--gradientTwo));
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: var(--textBasicColor);
+}
+
+.main {
+    display: flex;
+    width: 900px;
+    max-width: 90%;
+    height: 500px;
+    background: var(--bgBasicColor);
+    box-shadow: 0 0 20px var(--mainShadow);
+}
+
+@media (max-width: 730px) {
+    .main {
+        height: auto;
+        flex-direction: column;
+    }
+}

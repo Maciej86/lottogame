@@ -1,0 +1,84 @@
+.pageTemplate[data-nametheme="default"] {
+    --gradientOne: rgb(20, 136, 204);
+    --gradientTwo: rgb(43, 50, 178);
+    --mainShadow: rgb(47, 52, 117);
+    --textBasicColor: rgb(69 ,69, 69);
+    --bgBasicColor: rgb(255, 255, 255);
+    --section: rgb(115, 191, 235);
+    --sectionHover: rgb(85, 141, 173);
+    --textButton: rgb(7, 45, 66);
+    --textButtonHover: rgb(255, 255, 255);
+}
+
+.pageTemplate[data-nametheme="dark"] {
+    --gradientOne: rgb(65, 67, 69);
+    --gradientTwo: rgb(35, 37, 38);
+    --mainShadow: rgb(0, 0, 0);
+    --textBasicColor: rgb(39 ,39, 39);
+    --bgBasicColor: rgb(190, 190, 190);
+    --section: rgb(87, 88, 88);
+    --sectionHover: rgb(53, 53, 53);
+    --textButton: rgb(190, 190, 190);
+    --textButtonHover: rgb(210, 210, 210);
+}
+
+.pageTemplate[data-nametheme="shifter"] {
+    --gradientOne: rgb(248, 7, 89);
+    --gradientTwo: rgb(188, 78, 156);
+    --mainShadow: rgb(71, 31, 60);
+    --textBasicColor: rgb(69 ,69, 69);
+    --bgBasicColor: rgb(255, 255, 255);
+    --section: rgb(250, 103, 152);
+    --sectionHover: rgb(185, 76, 112);
+    --textButton: rgb(255, 255, 255);
+    --textButtonHover: rgb(255, 255, 255);
+}
+
+.pageTemplate[data-nametheme="citrus"] {
+    --gradientOne: rgb(253, 200, 48);
+    --gradientTwo: rgb(243, 115, 53);
+    --mainShadow: rgb(87, 42, 19);
+    --textBasicColor: rgb(69 ,69, 69);
+    --bgBasicColor: rgb(255, 255, 255);
+    --section: rgb(252, 218, 124);
+    --sectionHover: rgb(172, 148, 82);
+    --textButton: rgb(59, 28, 13);
+    --textButtonHover: rgb(255, 255, 255);
+}
+
+.pageTemplate[data-nametheme="purpink"] {
+    --gradientOne: rgb(127, 0, 255);
+    --gradientTwo: rgb(225, 0, 255);
+    --mainShadow: rgb(56, 1, 63);
+    --textBasicColor: rgb(69 ,69, 69);
+    --bgBasicColor: rgb(255, 255, 255);
+    --section: rgb(167, 84, 250);
+    --sectionHover: rgb(106, 54, 158);
+    --textButton: rgb(255, 255, 255);
+    --textButtonHover: rgb(255, 255, 255);
+}
+
+.pageTemplate[data-nametheme="royal"] {
+    --gradientOne: rgb(36, 59, 85);
+    --gradientTwo: rgb(20, 30, 48);
+    --mainShadow: rgb(0, 0, 0);
+    --textBasicColor: rgb(226, 237, 250);
+    --bgBasicColor: rgb(91, 146, 207);
+    --section: rgb(60, 91, 129);
+    --sectionHover: rgb(38, 57, 80);
+    --textButton: rgb(255, 255, 255);
+    --textButton: rgb(126, 184, 255);
+    --textButtonHover: rgb(149, 195, 255);
+}
+
+.pageTemplate[data-nametheme="nelson"] {
+    --gradientOne: rgb(255, 148, 114);
+    --gradientTwo: rgb(242, 112, 156);
+    --mainShadow: rgb(90, 53, 41);
+    --textBasicColor: rgb(69 ,69, 69);
+    --bgBasicColor: rgb(255, 255, 255);
+    --section: rgb(253, 178, 155);
+    --sectionHover: rgb(196, 139, 122);
+    --textButton: rgb(56, 40, 35);
+    --textButtonHover: rgb(247, 241, 241);
+}

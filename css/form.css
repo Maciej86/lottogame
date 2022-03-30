@@ -1,0 +1,106 @@
+.form--settings {
+    display: grid;
+    grid-template-columns: repeat(2, auto 1fr);
+    gap: 15px 7px;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .form--settings {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 259px) {
+    .form--settings {
+        grid-template-columns: 1fr;
+    }
+}
+
+.form--user {
+    margin-bottom: 20px;
+}
+
+.form__input {
+    width: 70px;
+    margin-right: 7px;
+    padding: 7px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form__input--settings {
+    border: 2px solid rgb(210,210,210);
+}
+
+.form__input--settings:hover {
+    border-color: rgb(52, 152, 219);
+}
+
+.form__input--settings:focus {
+    border-color: rgb(36, 103, 148);
+    outline: none;
+}
+
+.form__howMuchInput {
+    margin-bottom: 5px;
+}
+
+.form__input--user {
+    margin-bottom: 7px;
+    margin-right: 7px;
+    background: var(--section);
+    border: 2px solid var(--gradientOne);
+    color: var(--textButton);
+    font-size: 20px;
+    transition: opacity .4s;
+}
+
+.form__input--user:hover, .form__input--user:focus {
+    border: 2px solid var(--gradientTwo);
+    outline: none;
+}
+
+.form__button {
+    padding: 8px 26px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background .4s;
+}
+
+.form__button--settings {
+    background: rgb(46, 123, 175);
+    color: rgb(255,255,255);
+}
+
+.form__button:hover {
+    background: rgb(24, 70, 100);
+}
+
+.form__button--user {
+    background: var(--section);
+    border: 2px solid var(--gradientOne);
+    color: var(--textButton);
+    transition: all .4s;
+}
+
+.form__button--user:hover {
+    background: var(--sectionHover);
+    border-color: var(--sectionHover);
+    color: var(--textButtonHover);
+}
+
+.errorMesage {
+    margin: 0;
+    padding: 14px;
+    background: rgb(244, 11, 92);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 1px rgb(56, 19, 14);
+}
+
+.opacity {
+    opacity: .5;
+}
