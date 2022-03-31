@@ -10,6 +10,7 @@ https://maciej86.github.io/lottogame/
 ### Settings game
 ### Settings theme
 ## Technologies
+Project entirely written by me. The technologies used are:
  - HTML
  - CSS
  - JavaScript- ECMAScript 6
