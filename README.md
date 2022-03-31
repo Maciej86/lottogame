@@ -9,3 +9,4 @@ https://maciej86.github.io/lottogame/
 ## Settings
 ### Settings game
 ### Settings theme
+## Technologies
