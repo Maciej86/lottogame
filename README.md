@@ -10,3 +10,6 @@ https://maciej86.github.io/lottogame/
 ### Settings game
 ### Settings theme
 ## Technologies
+ - HTML
+ - CSS
+ - JavaScript- ECMAScript 6
