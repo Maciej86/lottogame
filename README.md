@@ -1,6 +1,8 @@
+
 # LOTTO GAME
 
 Lotto Game - is a simulation of a game of chance, which consists in selecting numbers that will be drawn.
+![LOTTO-GAME](https://github.com/Maciej86/lottogame/blob/main/images/screenshot.webp)
 
 ## Demo
 https://maciej86.github.io/lottogame/
