@@ -13,4 +13,4 @@ https://maciej86.github.io/lottogame/
 Project entirely written by me. The technologies used are:
  - HTML
  - CSS
- - JavaScript- ECMAScript 6
+ - JavaScript - ECMAScript 6
