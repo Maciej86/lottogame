@@ -55,7 +55,7 @@
     align-items: center;
     width: 50px;
     height: 50px;
-    margin-right: 10px;
+    margin: 0 10px 10px 0;
     background: var(--section);
     border: 2px solid var(--gradientOne);
     border-radius: 50%;
