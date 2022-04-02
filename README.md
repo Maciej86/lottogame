@@ -15,7 +15,7 @@ The range and number of random numbers can be changed in the settings, as descri
 ### Settings game
 In the draw settings, you can change the number of random numbers and their range. 
 
- - minimalna wartość losowanej liczby to 1,
+ - the minimum value of the random number is 1,
  - the maximum value of the random number is 100,
  - the maximum value of the numbers drawn is 6
 
