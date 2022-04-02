@@ -1,3 +1,4 @@
+
 # LOTTO GAME
 
 Lotto Game - is a simulation of a game of chance, which consists in selecting numbers that will be drawn.
@@ -20,6 +21,10 @@ In the draw settings, you can change the number of random numbers and their rang
  - the maximum value of the numbers drawn is 6
 
 ### Settings theme
+You can change the appearance of the application at any time.
+
+![Lotto Game Themes](https://github.com/Maciej86/lottogame/blob/main/images/lottothemes.webp)
+
 ## Technologies
 Project entirely written by me. The technologies used are:
  - HTML
